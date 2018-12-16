@@ -2,7 +2,7 @@
 #define STRING_H
 #include <stdio.h>
 
-int mstrlen(const char* str){
+int strlen(const char* str){
 	
 		int len=0,i=0;
 	for(; str[i]!='\0'; i++)
@@ -16,7 +16,7 @@ int mstrlen(const char* str){
 
 int strcmp(const char* str1,const char* str2){
 	
-		int size = mstrlen(str1);
+		int size = strlen(str1);
 
 	int count=0;
 	
